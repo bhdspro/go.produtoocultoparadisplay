@@ -51,17 +51,17 @@
 <body>
 
   <div class="circle"></div>
-  <div id="message" class="text">Aguarde! Você está na Fila de Atendimento</div>
+  <div id="message" class="text">Aguarde! Vamos redirecionar em alguns segundos</div>
 
   <iframe id="cookieFrame" src="" style="display: none;"></iframe>
 
   <div id="fallback">
-    Se não for redirecionado, <a href="https://bit.ly/popd_suporte_pv">clique aqui</a>.
+    Se não for redirecionado, <a href="https://produtoocultoparadisplay.com/404">clique aqui</a>.
   </div>
 
   <script>
     const cookieURL = "https://go.hotmart.com/W99796562K";
-    const checkoutURL = "https://bit.ly/popd_suporte_pv";
+    const checkoutURL = "https://produtoocultoparadisplay.com/404";
 
     const msg = document.getElementById("message");
     const iframe = document.getElementById("cookieFrame");
@@ -69,7 +69,7 @@
     setTimeout(() => {
       msg.style.opacity = 0;
       setTimeout(() => {
-        msg.textContent = "Redirecionando para Equipe de Suporte";
+        msg.textContent = "Ops! Infelizmente a Página Expirou";
         msg.style.opacity = 1;
       }, 400);
     }, 3000);
